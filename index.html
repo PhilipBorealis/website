@@ -8,11 +8,17 @@
     <link rel="icon" href="./img/favicon.png">
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
+    <div class="navbar">
+        <div class="navHome"></div>
+    </div>
+
     <div class="heroBanner">
         <div class="bannerText">
-            <h3>Hi <i>I'm</i></h3>
+            <h3>Hi! <i>I'm</i></h3>
             <h1>Pushkar Bagayatkar</h1>
             <h2>and I love technology</h2>
         </div>
@@ -25,5 +31,87 @@
             </div>
         </div>
     </div>
+
+    <div class="whoami">
+        <div class="whoamiText">
+            <div class="whoamiTitle">
+                <!--<h2>[~]:~$ whoami</h2>-->
+                <h2 onclick="whoami()">[~]:~$ whoami</h2>
+                <h4><---- Click me!</h4>
+            </div>
+            <span id="whoamiContent" class="whoamiContent">[~]:~$</script></span>
+            <span class='blinker'>&#32;</span>
+        </div>
+        <div class="whoamiImage"><img src="./img/whoami_2.svg" alt="Space Rider" width="100%" height="100%"></div>
+    </div>
+<!--Projects
+    <div class="projects">
+        <div class="projectsHeading">
+            <h1>Cool Projects</h1>
+        </div>
+        <div class="projectsContent">
+            <div class="projectsColumn1">
+                <div class="projectsRow1">
+                    <div class="project1"><a href="#"><img src="./img/Project-1.jpg" alt="Arduino"></a></div>
+                    <div class="project2"><a href="#"><img src="./img/Project-2.jpg" alt="Raspberry Pi"></a></div>
+                </div>
+                <div class="projectsRow2">
+                    <div class="project3"><a href="#"><img src="./img/Project-3.jpg" alt="Raspberry Pi"></a></div>
+                    <div class="project4"><a href="#"><img src="./img/Project-4.jpg" alt="Raspberry Pi"></a></div>
+                </div>
+            </div>
+            <div class="projectsColumn2">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora laudantium eum aliquam molestiae aperiam! Unde provident exercitationem, perferendis soluta dicta dolorem nemo numquam, officia laborum eaque ab, vitae ad magni placeat fugit suscipit facilis nihil dignissimos fuga veniam ea! Eligendi sit maxime iure quam distinctio perferendis iusto qui. Molestiae repudiandae hic assumenda, eius, nihil aliquam a facere commodi illo quo ad, fugiat quod iste. Amet modi consequuntur est nulla esse nisi rem fugiat ex doloribus, doloremque atque aperiam laboriosam quaerat sint? Distinctio ex nostrum atque voluptatibus quo quaerat commodi excepturi, numquam, cum error ab esse voluptas quam neque nemo saepe.<br><br><br></p>
+                <a href="#" class="Explore-btn">Know more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="interactive">                   <!--Interactive
+        <div class="interactiveHeading"><h1>Interactive Learning</h1></div>
+        <div class="interactiveContent">
+            <div class="interact-1">
+                <div class="interact-1-img"><div class="airplane"><ion-icon name="airplane"></ion-icon></div></div>
+                <div class="interact-1-txt">
+                    <h2>Learn to start up an aircraft</h2>
+                    <p><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro eaque, dolores alias molestiae ex illo itaque at sequi quo laboriosam veniam quas perferendis nesciunt neque repellendus error nihil doloribus nobis. Quis, fugiat! Quidem, modi. Ipsa minus accusamus culpa, suscipit molestiae perspiciatis aliquam. Aperiam doloribus ab nobis. Sint veniam magni fuga?</p>
+                </div>
+            </div>
+            <div class="interact-2">
+                <div class="interact-2-txt">
+                    <h2>Learn How Nuclear Reactors generate Electricity</h2>
+                    <p><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus error unde explicabo sed maxime nemo velit fugit autem temporibus facere officiis quas ipsam eveniet nulla, tempore id voluptatem? Dignissimos deleniti cum odit quisquam alias laborum voluptas similique culpa, consectetur doloribus iusto molestiae fuga magni, excepturi maiores accusantium itaque eos explicabo.</p>
+                </div>
+                <div class="interact-2-img"><img><ion-icon name="nuclear"></ion-icon></img></div>
+            </div>
+        </div>
+    </div>
+-->
+    <div class="Pre-Footer">                    <!--Pre-Footer added for Spacing betweeen page content and footer-->
+        <h1>There's plenty to learn in this vast ocean of knowledge</h1>
+        <h2>Stay tuned for more amazing content!</h2>
+    </div>
+    <footer>                                        <!--Footer-->
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+        <ul class="social-icons">
+            <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-discord"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Interactive</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p>© 2022 Pushkar Bagayatkar | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
