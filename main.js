@@ -1,3 +1,12 @@
+var bannerBG = document.getElementById('bannerBG');
+window.onmousemove = function(e) {
+    var x = - e.clientX/5,
+        y = - e.clientY/5;
+        bannerBG.style.backgroundPositionX = x + 'px';
+        bannerBG.style.backgroundPositionY = y + 'px';
+}
+
+
 function whoami() {
     const data = [
         {
